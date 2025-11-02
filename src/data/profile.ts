@@ -4,7 +4,7 @@ export const profile = {
   tagline: 'Pioneering AI-native transformations with Large Language Models',
   location: 'Atlanta, Georgia, United States',
   bio: 'CEO at Anguliyam AI, specializing in AI-native transformations, LLM applications, and agentic solutions. 27+ years of experience leading innovation at Equifax, Cardlytics, The Weather Channel, and Oracle. Passionate about cognitive automation and solving real-world challenges with AI.',
-  email: 'arvinda@anguliyam.ai',
+  email: 'arvinda@anguliyam.com',
   linkedin: 'https://www.linkedin.com/in/arvinda-gillella/',
   github: 'https://github.com/gillella',
   birthday: 'January 20',
@@ -227,7 +227,7 @@ export const projects = [
       'Advanced RAG implementations',
       'MLOps & LLMOps solutions',
     ],
-    link: 'https://anguliyam.ai',
+    link: 'https://www.anguliyam.com',
     github: 'https://github.com/gillella/anguliyam-website',
     category: 'Enterprise AI',
     featured: true,
@@ -361,6 +361,6 @@ export const achievements = [
 export const social = {
   github: 'https://github.com/gillella',
   linkedin: 'https://www.linkedin.com/in/arvinda-gillella/',
-  email: 'arvinda@anguliyam.ai',
+  email: 'arvinda@anguliyam.com',
   twitter: null,
 }

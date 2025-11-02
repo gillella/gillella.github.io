@@ -8,7 +8,7 @@ My personal portfolio website showcasing my work in AI engineering, agentic syst
 
 ## 🚀 About Me
 
-I'm an AI Engineer and Entrepreneur specializing in agentic AI systems with real-time voice interfaces. Currently building [Anguliyam AI](https://anguliyam.ai), where we design, deploy, and govern enterprise AI systems for regulated industries.
+I'm an AI Engineer and Entrepreneur specializing in agentic AI systems with real-time voice interfaces. Currently building [Anguliyam AI](https://www.anguliyam.com), where we design, deploy, and govern enterprise AI systems for regulated industries.
 
 ### Featured Projects
 
@@ -115,10 +115,10 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 📧 Contact
 
-- **Email**: arvinda@anguliyam.ai
+- **Email**: arvinda@anguliyam.com
 - **LinkedIn**: [linkedin.com/in/arvinda-gillella](https://www.linkedin.com/in/arvinda-gillella/)
 - **GitHub**: [github.com/gillella](https://github.com/gillella)
-- **Website**: [anguliyam.ai](https://anguliyam.ai)
+- **Website**: [anguliyam.com](https://www.anguliyam.com)
 
 ---
 
