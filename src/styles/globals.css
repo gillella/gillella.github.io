@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  --background-color: #08051a;
+}
+
+@layer base {
+  html {
+    @apply h-full scroll-smooth;
+    background-color: var(--background-color);
+  }
+
+  body {
+    @apply min-h-screen bg-midnight text-slate font-body antialiased;
+    background-image:
+      radial-gradient(circle at top right, rgba(207, 60, 255, 0.16), transparent 45%),
+      radial-gradient(circle at bottom left, rgba(79, 216, 255, 0.12), transparent 55%);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading text-white tracking-tight;
+  }
+
+  ::selection {
+    background-color: rgba(207, 60, 255, 0.4);
+    color: #ffffff;
+  }
+}
+
+@layer utilities {
+  .gradient-text {
+    @apply bg-gradient-primary bg-clip-text text-transparent;
+  }
+}
+
