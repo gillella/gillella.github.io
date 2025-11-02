@@ -38,21 +38,34 @@ export const Hero = () => {
           </FadeIn>
 
           <FadeIn delay={0.3}>
-            <p className="text-xl text-white/70 mb-8 max-w-2xl leading-relaxed">
+            <p className="text-xl text-white/70 mb-6 max-w-2xl leading-relaxed">
               {profile.tagline}
             </p>
           </FadeIn>
 
           <FadeIn delay={0.4}>
-            <p className="text-lg text-white/60 mb-10 max-w-2xl">
+            <p className="text-lg text-white/60 mb-4 max-w-2xl">
               {profile.bio}
             </p>
           </FadeIn>
 
+          <FadeIn delay={0.45}>
+            <div className="flex flex-wrap gap-4 mb-10">
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10">
+                <span className="text-cyan text-sm font-semibold">27+ Years</span>
+                <span className="text-white/60 text-sm">in Tech Leadership</span>
+              </div>
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10">
+                <span className="text-magenta text-sm font-semibold">Fortune 500</span>
+                <span className="text-white/60 text-sm">Experience</span>
+              </div>
+            </div>
+          </FadeIn>
+
           <FadeIn delay={0.5}>
             <div className="flex flex-wrap gap-4 mb-10">
-              <Button href="#projects" variant="primary">
-                View Projects
+              <Button href="#experience" variant="primary">
+                View Experience
               </Button>
               <Button href="#contact" variant="secondary">
                 Get in Touch
