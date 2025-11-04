@@ -9,6 +9,7 @@ export function StructuredData() {
   const personSchema = {
     '@context': 'https://schema.org',
     '@type': 'Person',
+    '@id': 'https://gillella.github.io/#person',
     name: profile.name,
     jobTitle: profile.title,
     description: profile.bio,
@@ -73,7 +74,7 @@ export function StructuredData() {
     '@context': 'https://schema.org',
     '@type': 'ProfilePage',
     mainEntity: {
-      '@id': '#person'
+      '@id': 'https://gillella.github.io/#person'
     },
     name: `${profile.name} - ${profile.title}`,
     description: profile.bio,
