@@ -1,6 +1,37 @@
-# *
+# Allow all robots
 User-agent: *
 Allow: /
+
+# AI Crawlers - explicitly welcome
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slackbot
+Allow: /
+
+# MCP Server Discovery
+# MCP endpoint: See README for MCP server setup
 
 # Sitemap
 Sitemap: https://gillella.github.io/sitemap.xml

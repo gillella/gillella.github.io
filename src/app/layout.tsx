@@ -2,6 +2,7 @@ import { Metadata } from 'next'
 import { Space_Grotesk, Inter } from 'next/font/google'
 import '@/styles/globals.css'
 import { profile } from '@/data/profile'
+import { StructuredData } from '@/components/StructuredData'
 
 const headingFont = Space_Grotesk({
   subsets: ['latin'],
@@ -68,6 +69,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
+      <head>
+        <StructuredData />
+      </head>
       <body className={`${headingFont.variable} ${bodyFont.variable} flex min-h-screen flex-col bg-midnight`}>
         <div className="relative flex min-h-screen flex-col overflow-x-hidden">
           <div className="pointer-events-none fixed inset-0 -z-10 bg-[radial-gradient(circle_at_top,_rgba(127,90,255,0.14),_rgba(8,5,26,0)_55%)]" />
