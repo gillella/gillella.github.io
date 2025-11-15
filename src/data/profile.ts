@@ -13,7 +13,7 @@ export const profile = {
 export const experience = [
   {
     company: 'Anguliyam AI',
-    role: 'CEO - Trusted Partner in AI native transformations',
+    role: 'Technologist & AI Practitioner - Trusted Partner in AI native transformations',
     period: 'Jan 2024 - Present · 2 yrs',
     location: 'Atlanta, Georgia, United States · Hybrid',
     description: 'At the forefront of building solutions around AI-native transformations. Focused on implementing LLM apps using advanced RAG and agentic solutions with frameworks like LangChain, LangGraph, and CrewAI. Our dream is centered on integrating LLMs everywhere to achieve cognitive automation attainable to solve real-world problems.',
