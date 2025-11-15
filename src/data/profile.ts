@@ -153,21 +153,6 @@ export const education = [
   },
 ]
 
-export const certifications = [
-  {
-    name: 'Google Professional Cloud Architect',
-    issuer: 'Google Cloud',
-    year: '2024',
-    icon: '🎓',
-  },
-  {
-    name: 'Microsoft Fabric Data Warehouse',
-    issuer: 'Microsoft',
-    year: '2024',
-    icon: '📊',
-  },
-]
-
 export const skills = {
   'Generative AI/LLMs': [
     'LangChain, LangGraph, CrewAI, DSPy, LangSmith',
@@ -213,22 +198,6 @@ export const projects = [
     link: null,
     github: 'https://github.com/gillella/agentAru',
     category: 'AI Agent',
-    featured: true,
-  },
-  {
-    id: 'arutraderbuddy',
-    title: 'AruTraderBuddy',
-    tagline: 'AI-Powered Trading Assistant',
-    description: 'Intelligent trading assistant focusing on swing trading with multi-week timeframes. Combines automated signals with educational components for informed trading decisions.',
-    tech: ['Python', 'AI/ML', 'Trading APIs', 'Data Analysis'],
-    highlights: [
-      'Multi-week swing trading focus',
-      'Automated signal generation',
-      'Educational trading insights',
-    ],
-    link: null,
-    github: 'https://github.com/gillella/AruTraderBuddy',
-    category: 'FinTech',
     featured: true,
   },
   {

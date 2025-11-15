@@ -4,7 +4,7 @@ import { Container } from '@/components/ui/Container'
 import { SectionTitle } from '@/components/ui/SectionTitle'
 import { Card } from '@/components/ui/Card'
 import { FadeIn } from '@/components/ui/FadeIn'
-import { experience, certifications, achievements } from '@/data/profile'
+import { experience, achievements } from '@/data/profile'
 import { useState } from 'react'
 
 export const Experience = () => {
@@ -122,33 +122,6 @@ export const Experience = () => {
           ))}
         </div>
 
-        {/* Certifications */}
-        <FadeIn>
-          <SectionTitle
-            title="Certifications"
-            subtitle="Continuously learning and staying at the forefront of cloud and AI technologies."
-          />
-        </FadeIn>
-
-        <div className="grid gap-6 md:grid-cols-2">
-          {certifications.map((cert, index) => (
-            <FadeIn key={cert.name} delay={index * 0.1}>
-              <Card>
-                <div className="flex items-start gap-4">
-                  <div className="text-4xl">{cert.icon}</div>
-                  <div>
-                    <h3 className="text-lg font-semibold text-white mb-1">
-                      {cert.name}
-                    </h3>
-                    <div className="text-sm text-white/60">
-                      {cert.issuer} • {cert.year}
-                    </div>
-                  </div>
-                </div>
-              </Card>
-            </FadeIn>
-          ))}
-        </div>
       </Container>
     </section>
   )
