@@ -1,9 +1,9 @@
 export const profile = {
   name: 'Arvinda Gillella',
   title: 'CEO & AI Practitioner',
-  tagline: 'Pioneering AI-native transformations with Large Language Models',
+  tagline: 'Pioneering AI-native transformations with Generative AI systems',
   location: 'Atlanta, Georgia, United States',
-  bio: 'CEO at Anguliyam AI, specializing in AI-native transformations, LLM applications, and agentic solutions. 27+ years of experience leading innovation at Equifax, Cardlytics, The Weather Channel, and Oracle. Passionate about cognitive automation and solving real-world challenges with AI.',
+  bio: 'Highly accomplished Technologist and AI Practitioner with over 25 years of progressive experience in digital transformation, cloud architecture, and application development across FinTech and Big Data. Focused on pioneering AI-native transformations and production-grade Generative AI/LLM agentic systems. Experienced leader who translates visionary ideas into scalable enterprise realities.',
   email: 'arvinda@anguliyam.com',
   linkedin: 'https://www.linkedin.com/in/arvinda-gillella/',
   github: 'https://github.com/gillella',
@@ -169,50 +169,17 @@ export const certifications = [
 ]
 
 export const skills = {
-  'AI & LLM Technologies': [
-    'LangChain, LangGraph, LangSmith',
-    'CrewAI & Agentic Solutions',
-    'DSPy Framework',
+  'Generative AI/LLMs': [
+    'LangChain, LangGraph, CrewAI, DSPy, LangSmith',
+    'MLOps & LLMOps Pipelines',
     'Prompt Engineering',
-    'RAG (Retrieval Augmented Generation)',
-    'Vector Databases',
-    'MLOps & LLMOps',
-    'Amazon Bedrock',
-    'Google Vertex AI',
   ],
-  'Cloud & Data Platforms': [
-    'Google Cloud Platform (GCP)',
-    'Amazon Web Services (AWS)',
-    'Kubernetes & Docker',
-    'Databricks Products',
-    'LakeHouse Architecture',
-    'Snowflake',
-    'Apache Kafka',
-    'Apache Spark',
-  ],
-  'Backend & Microservices': [
-    'Java & Spring Boot',
-    'GoLang Microservices',
-    'Spring Cloud',
-    'Microservices Architecture',
-    'REST & Web Services',
-    'SOA',
-  ],
-  'Streaming & Data Processing': [
-    'Apache Kafka & KSQL',
-    'Apache Storm',
-    'Apache NiFi',
-    'Stream Processing',
-    'Redis & Cassandra',
-    'RabbitMQ',
-  ],
-  'DevOps & Tools': [
-    'Git & Jenkins',
-    'Gradle & Maven',
-    'Tomcat & Weblogic',
-    'Docker & Kubernetes',
-    'CI/CD Pipelines',
-  ],
+  Platforms: ['Amazon Web Services (AWS)', 'Google Cloud Platform (GCP)'],
+  'Agentic Systems': ['Model Context Protocol (MCP)', 'A2A', 'AG-UI', '12-Factor Agents'],
+  'AI Observability & Eval': ['Arize Phoenix', 'Braintrust', 'Langfuse'],
+  'Vector Databases & RAG': ['ChromaDB', 'Qdrant', 'Retrieval Augmented Generation (RAG)'],
+  'Developer Tools': ['Cursor IDE', 'Warp Terminal'],
+  'Cloud & Infrastructure': ['Kubernetes', 'Docker', 'Jenkins', 'Git'],
 }
 
 export const projects = [

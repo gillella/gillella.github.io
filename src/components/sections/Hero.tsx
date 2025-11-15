@@ -52,7 +52,7 @@ export const Hero = () => {
           <FadeIn delay={0.45}>
             <div className="flex flex-wrap gap-4 mb-10">
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10">
-                <span className="text-cyan text-sm font-semibold">27+ Years</span>
+                <span className="text-cyan text-sm font-semibold">25+ Years</span>
                 <span className="text-white/60 text-sm">in Tech Leadership</span>
               </div>
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10">
@@ -107,4 +107,3 @@ export const Hero = () => {
     </section>
   )
 }
-
