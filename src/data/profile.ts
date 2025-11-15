@@ -1,6 +1,6 @@
 export const profile = {
   name: 'Arvinda Gillella',
-  title: 'CEO & AI Practitioner',
+  title: 'Technologist & AI Practitioner',
   tagline: 'Pioneering AI-native transformations with Generative AI systems',
   location: 'Atlanta, Georgia, United States',
   bio: 'Highly accomplished Technologist and AI Practitioner with over 25 years of progressive experience in digital transformation, cloud architecture, and application development across FinTech and Big Data. Focused on pioneering AI-native transformations and production-grade Generative AI/LLM agentic systems. Experienced leader who translates visionary ideas into scalable enterprise realities.',
