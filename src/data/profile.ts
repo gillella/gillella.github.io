@@ -13,16 +13,17 @@ export const profile = {
 export const experience = [
   {
     company: 'Anguliyam AI',
-    role: 'Technologist & AI Practitioner - Trusted Partner in AI native transformations',
+    role: 'Founder & AI Technologist',
     period: 'Jan 2024 - Present · 2 yrs',
-    location: 'Atlanta, Georgia, United States · Hybrid',
-    description: 'At the forefront of building solutions around AI-native transformations. Focused on implementing LLM apps using advanced RAG and agentic solutions with frameworks like LangChain, LangGraph, and CrewAI. Our dream is centered on integrating LLMs everywhere to achieve cognitive automation attainable to solve real-world problems.',
+    location: 'Atlanta, GA · Hybrid',
+    description:
+      'Driving AI-native transformation initiatives and building enterprise-grade LLM applications leveraging advanced RAG architectures, multi-agent systems, and scalable GenAI deployment platforms.',
     highlights: [
-      'Leading AI-native transformation initiatives with LLMs',
-      'Implementing advanced RAG and agentic solutions',
-      'Working with Amazon Bedrock and Google Vertex AI',
-      'Building solutions with LangChain, LangGraph, CrewAI, DSPy',
-      'Focused on MLOps, LLMOps, and cognitive automation',
+      'Architecting production-grade LLM & agentic systems using LangChain, LangGraph, CrewAI, DSPy and multi-agent orchestration patterns.',
+      'Implementing advanced RAG pipelines with vector search, contextual memory, embeddings, and context engineering for domain-adaptive AI performance.',
+      'Deploying solutions using AWS Bedrock, GCP Vertex AI, Azure OpenAI, integrating scalable LLMOps / MLOps pipelines for secure, observable, and reproducible LLM deployment.',
+      'Designing 12-Factor Agent architectures with A2A workflows and Model Context Protocol (MCP) for structured reasoning and tool-driven automation.',
+      'Building real-world cognitive automation systems leveraging agentic reasoning, workflow automation, and domain-specific fine-tuning (PEFT/LoRA, CoT, instruction-tuning).',
     ],
   },
   {
