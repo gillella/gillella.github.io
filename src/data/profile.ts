@@ -29,7 +29,7 @@ export const experience = [
   {
     company: 'Equifax',
     role: 'VP, Innovation & Application Development',
-    period: 'Mar 2021 - May 2024 · 3 yrs 3 mos',
+    period: 'Mar 2021 - Jul 2023 · 2 yrs 5 mos',
     location: 'Atlanta, Georgia, United States',
     description: 'Led the Innovation team to support D&A in accelerating innovation & new product development from concept to delivery leveraging Equifax\'s transformed Cloud capabilities.',
     highlights: [
