@@ -155,9 +155,20 @@ export const education = [
 
 export const skills = {
   'Generative AI/LLMs': [
-    'LangChain, LangGraph, CrewAI, DSPy, LangSmith',
-    'MLOps & LLMOps Pipelines',
-    'Prompt Engineering',
+    'LangChain',
+    'LangGraph',
+    'CrewAI',
+    'DSPy',
+    'LangSmith',
+    'Fine-tuning (PEFT/LoRA, instruction-tuning, CoT)',
+    'Retrieval-Augmented Generation (RAG)',
+    'Embeddings & vector DBs',
+    'Deployment & observability (LLMOps)',
+    'Multi-modal LLM adaptation',
+    'Domain-specific LLM customization',
+    'Prompt engineering & prompt-chaining',
+    'Context engineering (data/context pipeline, retrieval-memory, context window optimization)',
+    '12-Factor Agent architecture (production-grade agent design, scalable LLM workflows, tooling orchestration)',
   ],
   Platforms: ['Amazon Web Services (AWS)', 'Google Cloud Platform (GCP)'],
   'Agentic Systems': ['Model Context Protocol (MCP)', 'A2A', 'AG-UI', '12-Factor Agents'],
