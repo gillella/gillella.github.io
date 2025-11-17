@@ -8,17 +8,17 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        midnight: '#08051a',
+        midnight: '#2b1b1f',
         iris: '#431e9a',
         magenta: '#cf3cff',
         cyan: '#4fd8ff',
         gold: '#ffb347',
         slate: '#cfd3dd',
-        surface: '#0d0a24',
+        surface: '#331f25',
       },
       backgroundImage: {
-        'gradient-primary': 'linear-gradient(to right, #cf3cff, #7a4bff, #4fd8ff)',
-        'grid-surface': 'radial-gradient(circle at center, rgba(79,216,255,0.12) 0, rgba(8,5,26,0) 70%)',
+        'gradient-primary': 'linear-gradient(to right, #f0b8c6, #d18ca6, #a86c8b)',
+        'grid-surface': 'radial-gradient(circle at center, rgba(231,174,189,0.14) 0, rgba(43,27,31,0) 70%)',
       },
       animation: {
         'fade-in': 'fade-in 0.5s ease-in-out forwards',
@@ -47,4 +47,3 @@ module.exports = {
   },
   plugins: [],
 }
-
