@@ -4,7 +4,7 @@ export const profile = {
   tagline: 'Pioneering AI-native transformations with Generative AI systems',
   location: 'Atlanta, Georgia, United States',
   bio: 'Highly accomplished Technologist and AI Practitioner with over 25 years of progressive experience in digital transformation, cloud architecture, and application development across FinTech and Big Data. Focused on pioneering AI-native transformations and production-grade Generative AI/LLM agentic systems. Experienced leader who translates visionary ideas into scalable enterprise realities.',
-  email: 'arvinda@anguliyam.com',
+  email: 'arvinda.gillella@gmail.com',
   linkedin: 'https://www.linkedin.com/in/arvinda-gillella/',
   github: 'https://github.com/gillella',
   birthday: 'January 20',
