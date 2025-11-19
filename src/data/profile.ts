@@ -199,6 +199,14 @@ export const skills = {
     'Retrieval-Augmented Generation (RAG)',
     'Embeddings & Vector Search Pipelines',
   ],
+  'Data Platforms': [
+    'Snowflake',
+    'Databricks',
+    'Google BigQuery',
+    'Amazon Redshift',
+    'Apache Kafka',
+    'Apache Spark',
+  ],
   'Developer Tools': [
     'Cursor IDE',
     'Warp Terminal',
