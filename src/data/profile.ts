@@ -163,6 +163,7 @@ export const skills = {
     'LangSmith',
     'Fine-tuning (PEFT/LoRA, instruction-tuning, CoT)',
     'Retrieval-Augmented Generation (RAG)',
+    'Graph RAG',
     'Embeddings & vector DBs',
     'Deployment & observability (LLMOps)',
     'Multi-modal LLM adaptation',
@@ -183,6 +184,7 @@ export const skills = {
     'Agent-to-Agent (A2A) workflows',
     'Multi-Agent Orchestration (LangGraph, CrewAI)',
     'Autonomous Agentic AI',
+    'Agentic RAG',
   ],
   'AI Observability & Eval': [
     'Arize AI (Phoenix)',
@@ -197,6 +199,7 @@ export const skills = {
     'Pinecone',
     'Milvus',
     'Retrieval-Augmented Generation (RAG)',
+    'Graph RAG',
     'Embeddings & Vector Search Pipelines',
   ],
   'Data Platforms': [
