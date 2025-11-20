@@ -190,6 +190,8 @@ export const skills = {
     'Arize AI (Phoenix)',
     'Braintrust',
     'Langfuse',
+    'RAGAS',
+    'Trulens',
     'LLM Drift & Hallucination Monitoring',
     'Outcome-Based Evaluation Platforms',
   ],
